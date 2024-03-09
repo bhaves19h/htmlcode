@@ -1,7 +1,9 @@
 let num=25;
 let usernum = prompt("gues the number");
-console.log(usernum);
+
 while(usernum !=num){
-    prompt("wrong number GUess agian");
-}
+    usernum =prompt("wrong number GUess agian");
+};
+if (usernum==num){
 console.log("Congratulatons");
+};
