@@ -1,4 +1,4 @@
-let num=25;
+let num=18;
 let usernum = prompt("gues the number");
 
 while(usernum !=num){
